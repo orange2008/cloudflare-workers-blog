@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/gh/orange2008/cloudflare-workers-blog@master/assets/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/gh/orange2008/cloudflare-workers-blog@master/assets/4iCv6KVjbNBYlgoCxCvjsGyI.ttf) format('truetype');
+}
