@@ -13,7 +13,7 @@ Different from original project:
 ```
 Language: zh-CN -> en-US
 Friendly constants edit experience
-Pull all outside scripts,templates,stylesheets to this project.
+Pull all outside scripts,templates,stylesheets to this project.(All npm and WordPress packages will not be pulled due to copyright.)
 ```
 
 

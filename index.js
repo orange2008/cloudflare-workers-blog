@@ -1,13 +1,14 @@
 'use strict';
+const username = "admin" // Management Username, default:admin
+const password = "password" // Management Password, default:password
+// Management authentication use HTTPBasicAuth
+const domain = "" // Site domain(go and buy one please, or freenom), default: nothing
+const name = "Blogging" // Sitename, will show up as a h1 tag in the head of site, default:Blogging,
+const description = "A blog." // Site Description, will show up under site name, default:A blog.
+const cf_zoneid = "" // Cloudflare zone ID, see 'tutorial.md' for more details, default: nothing
+const cf_apitoken = "" // Cloudflare API Token, see 'tutorial.md' for mote details, default: nothing
+ 
 const OPT = {
-    const username = "admin" // Management Username, default:admin
-    const password = "password" // Management Password, default:password
-    // Management authentication use HTTPBasicAuth
-    const domain = "" // Site domain(go and buy one please, or freenom), default: nothing
-    const name = "Blogging" // Sitename, will show up as a h1 tag in the head of site, default:Blogging,
-    const description = "A blog." // Site Description, will show up under site name, default:A blog.
-    const cf_zoneid = "" // Cloudflare zone ID, see 'tutorial.md' for more details, default: nothing
-    const cf_apitoken = "" // Cloudflare API Token, see 'tutorial.md' for mote details, default: nothing
     "user" : "${username}",
     "password" : "${password}",
     "siteDomain" : "${domain}",
